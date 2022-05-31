@@ -1,0 +1,10 @@
+<template>
+<lightning-card>
+<div>
+<h1> This is Parent screen </h1>
+This response from child : {response}
+</div>
+<h2> This is Child Button</h2>
+    <c-custom-event-child onmyevent={handleResponse}> </c-custom-event-child>
+</lightning-card>
+</template>
